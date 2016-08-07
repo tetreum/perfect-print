@@ -1,0 +1,9 @@
+{
+    "name": "tetreum/perfect-print",
+    "description": "Perfect print function for PHP Debugging ",
+    "keywords": ["debug","print"],
+    "license": "MIT",
+    "autoload": {
+      "files": ["src/functions.php"]
+    }
+}
