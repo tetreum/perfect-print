@@ -4,6 +4,10 @@ perfect-print
 Stop wasting your time using print_r, var_dump and echo functions to debug your code.
 Perfect print for PHP debugging is here.
 
+#### Install
+
+    composer require tetreum/perfect-print "dev-master"
+
 ---
 
 Example
