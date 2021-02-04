@@ -6,11 +6,7 @@
 if (!function_exists("p")) {
 	function p()
 	{
-	    $consolePrint = false;
-
-	    if (!isset($_SERVER['HTTP_HOST']) || $_SERVER['HTTP_HOST'] == null) {
-	        $consolePrint = true;
-	    }
+	    $consolePrint = php_sapi_name() === 'cli';
 
 	    if (!$consolePrint) {
 	        echo '<pre>';
